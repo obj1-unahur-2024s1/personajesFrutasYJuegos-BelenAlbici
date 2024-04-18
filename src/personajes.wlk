@@ -7,11 +7,11 @@ object martin {
 	var actividadDelDia = 0
 	var despensa = vasoDeAgua
 	
-	method energia()= energia 
+	method energia()= energia //para probar test
 	
-	method tieneHambre () = tieneHambre
+	method tieneHambre () = tieneHambre // test
 	
-	method actividadDelDia() = actividadDelDia
+	method actividadDelDia() = actividadDelDia //test
 	
 	method esFeliz (){
 		return energia > 80 || actividadDelDia >= 2 && not tieneHambre
@@ -33,3 +33,6 @@ object martin {
 	
 }
 	
+object maria {
+	var endorfina = 0
+}
